@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="               FINAL PAGE"
+        android:textSize="30sp"
+        android:textColor="#002255"
+
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+    <TextView
+        android:id="@+id/que"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="15dp"
+        />
+     <EditText
+         android:id="@+id/ans"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:hint="Enter answer"
+         android:inputType="text"
+         />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_gravity="right"
+        />
+</LinearLayout>
